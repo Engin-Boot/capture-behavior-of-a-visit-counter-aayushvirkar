@@ -1,16 +1,13 @@
 # Visit-counter for a Facilities Manager
 
 Scenario: Report visitor trends during a week of operation
-
-  Given 
+  Given
   Patient gets visitors
   When
   Patient has to undergo operation
   Then
-  Record the no. of visitors and their duration of visit of the Patient 
-
+  Record the no. of visitors and their duration of visit of the Patient
 Scenario: Alert when seating capacity is full
-
   Given
   Hospital beds fill up
   When

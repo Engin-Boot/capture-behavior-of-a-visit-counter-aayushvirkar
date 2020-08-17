@@ -1,8 +1,8 @@
 # Visit-counter for a Director
 
 Scenario: Show patient visits during working days and holidays
-  Given
- People visit the hospital
+ Given
+ The hospital is visited by patients
  When
  patient enters the premises of the hospital
  Then

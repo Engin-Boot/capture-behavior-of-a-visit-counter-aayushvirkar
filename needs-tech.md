@@ -4,7 +4,7 @@ Scenario: Recover across restarts of the server
 that runs the visit-counter
 
   Given
-  There is a server containt visit details
+  There is a server containing visitor details
   When
   The server restarts
   Then
@@ -17,4 +17,4 @@ Scenario: Reconcile counts if the sensor is offline for a while
   When
   Sensor goes offline
   Then
-  Keep record of all scanned barcodes
+  Keep a record of all scanned barcodes

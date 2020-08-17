@@ -3,16 +3,16 @@
 Scenario: Show patient visits during working days and holidays
 
   Given 
- I am director of an hospital
+  People visit the hospital
   When
   patient enters the premises of the hospital
   Then
-  Take record of the patient (Entry/Exit)
+  Take record of the patient
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
   Given 
-  i am director of an hosiptal
+  Patients and Working staff park their vehicles
   When
   Parking capacity is near 90% 
   Then

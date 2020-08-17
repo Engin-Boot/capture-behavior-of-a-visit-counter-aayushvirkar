@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
  Given
- The hospital is visited by patients
+ Patient visits the hospital.
  When
  patient enters the premises of the hospital
  Then

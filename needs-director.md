@@ -1,7 +1,6 @@
 # Visit-counter for a Director
 
 Scenario: Show patient visits during working days and holidays
-
   Given
   People visit the hospital
   When
@@ -9,7 +8,6 @@ Scenario: Show patient visits during working days and holidays
   Then
   take record of the patient
 Scenario:Compute parking slots to reserve for visiting specialists
-
   Given
   Patients and Working staff park their vehicles
   When

@@ -3,7 +3,7 @@
 Scenario: Report visitor trends during a week of operation
 
   Given 
-  i am facility manager
+  Patient gets visitors
   When
   Patient has to undergo operation
   Then

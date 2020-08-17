@@ -12,7 +12,7 @@ Scenario: Report visitor trends during a week of operation
 Scenario: Alert when seating capacity is full
 
   Given
-  i am facility manager at an hospital
+  Hospital beds fill up
   When
   The no. of hospital beds reach threshold capacity(90%)
   Then

@@ -17,4 +17,4 @@ Scenario: Reconcile counts if the sensor is offline for a while
   When
   Sensor goes offline
   Then
-  Keep a record of all scanned barcodes
+  Keep a record of all scanned bar codes

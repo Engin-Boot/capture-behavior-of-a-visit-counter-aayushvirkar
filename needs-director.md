@@ -2,12 +2,12 @@
 
 Scenario: Show patient visits during working days and holidays
   Given
-  People visit the hospital
+  People visit the hospital  
   When
   patient enters the premises of the hospital
   Then
   take record of the patient
-Scenario:Compute parking slots to reserve for visiting specialists
+Scenario:Compute parking slots to reserve for visiting specialists  
   Given
   Patients and Working staff park their vehicles
   When
